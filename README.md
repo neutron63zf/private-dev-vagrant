@@ -18,7 +18,7 @@ PCが壊れても必要なソフトウェアが存在していれば即座にバ
   - Virtual Box
   - Vagrant
   - Ansible
-  - RDPクライアント
+  - Microsoft Remote Desktop Client
 - バックアップが存在している
 
 # 手順
