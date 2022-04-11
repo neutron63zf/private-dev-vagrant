@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+    - name: create desktop file
+      shell: |
+        echo hoge > sample-ansible-0411.txt
