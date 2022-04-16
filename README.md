@@ -52,26 +52,37 @@ vagrant upにより立ち上げます。自動でansibleによるセットアッ
 
 ## コマンドライン類
 
+### aptで入るもの
+
 - git
 - zsh
+- megatools
+- duplicity
+- openjdk-16-jdk
+- xrdp
+- jq
+
+### gitリポジトリクローン+αで入るもの
+
 - zsh-completions
 - zsh-autosuggestions
-- starship
 - nodenv
+- pyenv
+
+### シェルスクリプトが必要なもの
+
+- starship
 - yarn
 - rustup
-- pyenv
 - pipenv
 - aws cli
 - eb cli
-- megatools
-- duplicity
-- jdk/jre
 - docker
-- xrdp
-- megatools
-- jq
 - jc
+
+### 未確認
+
+現在なし
 
 ## GUI類
 
@@ -92,6 +103,10 @@ vagrant upにより立ち上げます。自動でansibleによるセットアッ
 - Tweetdeck
 - Steam
 - Postman
+
+# 仮想マシンのセッティング
+
+- デフォルトシェルのzshへの変更
 
 # 仮想マシンに含まれていないが、検討が必要なもの
 
