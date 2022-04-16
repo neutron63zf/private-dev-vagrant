@@ -1,5 +1,16 @@
 - hosts: all
+  become: true
   tasks:
-    - name: create desktop file
-      shell: |
-        echo hoge > sample-ansible-0411.txt
+    - name: apt update
+      apt:
+        update_cache: yes
+    - name: install tools via apt
+      apt:
+        name:
+          - git
+          - zsh
+          - megatools
+          - duplicity
+          - openjdk-16-jdk
+          - xrdp
+          - jq
