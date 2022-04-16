@@ -69,6 +69,9 @@ vagrant upにより立ち上げます。自動でansibleによるセットアッ
 - jdk/jre
 - docker
 - xrdp
+- megatools
+- jq
+- jc
 
 ## GUI類
 
@@ -86,6 +89,9 @@ vagrant upにより立ち上げます。自動でansibleによるセットアッ
 - Wireguard
 - Gitkraken
 - 1password
+- Tweetdeck
+- Steam
+- Postman
 
 # 仮想マシンに含まれていないが、検討が必要なもの
 
